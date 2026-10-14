@@ -1,12 +1,13 @@
-# Muse × Qwen-Image 2.1
+# Muse × Qwen-Image 2.1 UNCENSORED
 
 > 🌐 Read in Indonesian: [README.id.md](README.id.md)
 
-Run Qwen-Image 2.1 on **your own Google Colab**, driven by **your Muse**.
+Run **Qwen-Image 2.1 Uncensored** on **your own Google Colab**, driven by **your Muse**.
 No GPU to rent. No server to maintain. Your Colab, your quota, your prompts.
+No safety filter. No blocked prompts. **NSFW allowed — 18+ only.**
 
 Your Muse opens the notebook in your Colab, runs it, generates the image,
-and sends you the file. You just describe what you want.
+and sends you the file. You just describe what you want — SFW or NSFW.
 
 ## How it works
 
@@ -16,10 +17,20 @@ Muse → your Colab (T4 GPU): upload notebook → run ComfyUI → generate
 Muse → you: the .png file
 ```
 
-Stack: **ComfyUI** + **ComfyUI-GGUF** (leejet fork) + **Qwen-Image 2.1 GGUF Q4_K_M**.
+Stack: **ComfyUI** + **ComfyUI-GGUF** (leejet fork) + **Qwen-Image 2.1 Uncensored GGUF Q4_K_M**.
 Model files (~15 GB per session) are downloaded from Hugging Face on first run.
-No safety checker in this GGUF build — you are responsible for what you
-generate on your own Colab.
+
+## Uncensored — what that means
+
+This is **not** the official Qwen release with a safety filter. It's the
+community GGUF build (`Qwen-Image-2.1-Uncensored-Quantized`) with **no safety
+checker / no content filter**. Prompts that the official model would refuse —
+including NSFW — run here.
+
+- 18+ only. You are responsible for what you generate on your own Colab.
+- Don't generate real people, minors, or non-consensual content. Ever.
+- Everything runs locally in your own Colab session. Nothing is sent to
+  any third-party server by this repo.
 
 ## Quickstart (2 minutes)
 
@@ -113,6 +124,7 @@ The three that bite most:
 
 ## Star this if it saved you a GPU bill
 
-If this repo got you generating on Colab without renting a GPU, give it a ⭐.
+If this repo got you generating uncensored images on Colab without renting
+a GPU, give it a ⭐.
 Issues and PRs welcome — especially better prompts, better defaults,
 and cleaner error handling.

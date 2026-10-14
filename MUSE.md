@@ -1,12 +1,15 @@
 # MUSE.md — Instructions for Muse (read this first)
 
-You are helping the user run Qwen-Image 2.1 in **their own Google Colab**.
+You are helping the user run Qwen-Image 2.1 **UNCENSORED** in **their own Google Colab**.
 You operate their browser. They own the Colab account, the GPU quota, and the prompts.
 
 ## What this repo is
 
 - `notebook/qwen-image-2.1-colab.ipynb` — the only notebook you need.
-  Stack: ComfyUI + `leejet/ComfyUI-GGUF` + GGUF `Qwen-Image-2.1` (Q4_K_M).
+  Stack: ComfyUI + `leejet/ComfyUI-GGUF` + GGUF `Qwen-Image-2.1-Uncensored` (Q4_K_M).
+  This build has **no safety checker / no content filter**. NSFW prompts are
+  allowed. 18+ only. Never generate real people, minors, or non-consensual
+  content.
   It downloads ~15 GB of model files per Colab session, starts ComfyUI on
   port 8188, and exposes `generate(prompt, seed, width, height, steps)`.
 - The user runs everything on **their own Colab**. Never use your own

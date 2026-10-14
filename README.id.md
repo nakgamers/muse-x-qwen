@@ -1,10 +1,11 @@
-# Muse × Qwen-Image 2.1
+# Muse × Qwen-Image 2.1 UNCENSORED
 
-Jalankan Qwen-Image 2.1 di **Google Colab-mu sendiri**, digerakkan oleh **Muse-mu**.
+Jalankan **Qwen-Image 2.1 Uncensored** di **Google Colab-mu sendiri**, digerakkan oleh **Muse-mu**.
 Tanpa sewa GPU. Tanpa server yang harus dirawat. Colab-mu, kuotamu, prompt-mu.
+Tanpa safety filter. Tanpa prompt yang di-block. **NSFW boleh — khusus 18+.**
 
 Muse-mu yang membukakan notebook di Colab-mu, menjalankannya, men-generate
-gambarnya, dan mengirimkan file-nya ke kamu. Kamu cukup menjelaskan maumu apa.
+gambarnya, dan mengirimkan file-nya ke kamu. Kamu cukup menjelaskan maumu apa — SFW atau NSFW.
 
 > 📄 Baca dalam bahasa Inggris: [README.md](README.md)
 
@@ -16,10 +17,20 @@ Muse → Colab-mu (GPU T4): upload notebook → jalankan ComfyUI → generate
 Muse → kamu: file .png-nya
 ```
 
-Stack: **ComfyUI** + **ComfyUI-GGUF** (fork leejet) + **Qwen-Image 2.1 GGUF Q4_K_M**.
+Stack: **ComfyUI** + **ComfyUI-GGUF** (fork leejet) + **Qwen-Image 2.1 Uncensored GGUF Q4_K_M**.
 File model (~15 GB per sesi) diunduh dari Hugging Face saat pertama kali jalan.
-Build GGUF ini tidak punya safety checker — kamu bertanggung jawab atas apa
-yang kamu generate di Colab-mu sendiri.
+
+## Uncensored — maksudnya apa
+
+Ini **bukan** rilis resmi Qwen yang ada safety filter-nya. Ini build GGUF
+komunitas (`Qwen-Image-2.1-Uncensored-Quantized`) yang **tanpa safety checker /
+tanpa content filter**. Prompt yang bakal ditolak model resmi — termasuk NSFW —
+jalan di sini.
+
+- Khusus 18+. Kamu bertanggung jawab atas apa yang kamu generate di Colab-mu sendiri.
+- Jangan pernah generate orang beneran, anak di bawah umur, atau konten non-konsensual.
+- Semua jalan lokal di sesi Colab-mu sendiri. Repo ini tidak mengirim apa pun
+  ke server pihak ketiga.
 
 ## Mulai cepat (2 menit)
 
@@ -112,6 +123,6 @@ Tiga yang paling sering menggigit:
 
 ## Kasih ⭐ kalau ini menghemat tagihan GPU-mu
 
-Kalau repo ini bikin kamu bisa generate di Colab tanpa sewa GPU, kasih ⭐.
+Kalau repo ini bikin kamu bisa generate uncensored di Colab tanpa sewa GPU, kasih ⭐.
 Issues dan PR dipersilakan — terutama prompt yang lebih bagus, default yang
 lebih enak, dan error handling yang lebih rapi.
