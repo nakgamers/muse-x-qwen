@@ -122,6 +122,13 @@ The three that bite most:
 - This repo is a workflow wrapper. The model weights belong to their
   respective owners on Hugging Face. Use them per their licenses.
 
+## DYWOR — Do Your Own Research
+
+Remember kids, DYWOR. Read the README, understand what you're running on
+your own Colab, and use it responsibly. This repo gives you the workflow —
+what you generate with it is on you. Don't generate real people, minors,
+or non-consensual content. Ever.
+
 ## Star this if it saved you a GPU bill
 
 If this repo got you generating uncensored images on Colab without renting

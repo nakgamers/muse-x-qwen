@@ -121,6 +121,13 @@ Tiga yang paling sering menggigit:
 - Repo ini adalah wrapper workflow. Bobot model milik pemiliknya masing-masing
   di Hugging Face. Gunakan sesuai lisensinya.
 
+## DYWOR — Do Your Own Research
+
+Ingat ya, DYWOR. Baca README-nya, pahami apa yang kamu jalankan di Colab-mu
+sendiri, dan pakai dengan tanggung jawab. Repo ini cuma ngasih workflow-nya —
+apa yang kamu generate adalah tanggung jawabmu. Jangan pernah generate orang
+beneran, anak di bawah umur, atau konten non-konsensual.
+
 ## Kasih ⭐ kalau ini menghemat tagihan GPU-mu
 
 Kalau repo ini bikin kamu bisa generate uncensored di Colab tanpa sewa GPU, kasih ⭐.
